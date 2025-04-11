@@ -1,19 +1,38 @@
+## 🤖 Bot Hakkında  
+Bu bot, Discord sunucularına **self token** kullanarak katılım sağlamak için tasarlanmıştır. Sunucuya katılır, özel durum mesajı ayarlar ve istenirse OAuth2 davetiyle yönlendirilir.
 
+---
 
-Bu bot, Discord sunucularına token ile katılmak için kullanılır. Sunucuya katılır, durumu ayarlar ve OAuth2 ile davet edilir.
+## 💡 Ne İşe Yarar?
+- Self token’larla belirtilen sunucuya otomatik katılım sağlar.  
+- Katıldıktan sonra özel bir **durum mesajı** belirler (örn: `Onurx - Üye`).  
+- Botun OAuth2 bağlantısını oluşturur ve paylaşır.
 
-## Ne İşe Yarar?
-- Tokenlerini sunucuya sokarsın 
-- Belirttiğin sunucuya token ile katılır.
-- Botun durumunu ayarlar (örneğin "Onurx - Üye").
-- OAuth2 linki ile davet edilir.
+---
 
-## Gerekenler
-- Node.js (internette var, indir).
-- Discord bot tokenı.
-- Self Hesap Tokeni 
+## 🧰 Gerekli Olanlar
+- **Node.js** (İnternetten indirilebilir)  
+- **Discord Bot Tokenı**  
+- **Self Hesap Tokenleri**
 
-## Kurulum
-- **Config Doldur**: `config.js` dosyasını aç, içini doldur (sunucu ID, token, vs.).
-- **Modülleri Yükle**: CMD’yi aç (`cmd` yaz), klasöre git (`cd klasör-yolu`), sonra `npm install` yaz.
-- **Tokenleri Ekle**: `tokens` diye dosya yap, içine tokenlerini yaz (her satıra bir tane), kaydet.
+---
+
+## ⚙️ Kurulum Adımları
+1. **`config.js` Dosyasını Doldur**  
+   Sunucu ID’si, bot tokenı vs. bilgileri buraya gir.
+
+2. **Modülleri Kur**  
+   - CMD’yi aç  
+   - Proje klasörüne geç: `cd klasör-yolu`  
+   - Kurulum yap: `npm install`
+
+3. **Tokenleri Ekle**  
+   - `tokens` adında bir dosya oluştur.  
+   - Her satıra bir self token gelecek şekilde ekle.  
+   - Dosyayı kaydet.
+
+---
+
+## ❗ Hata Mı Aldın?
+Yardıma ihtiyacın olursa:  
+[💬 discord.gg/vsc](https://discord.gg/vsc)
